@@ -1,0 +1,14 @@
+{
+    "name": "PlayZone",
+    "version": "1.0",
+    "description": "Cool extension !",
+    "permissions":[
+        "storage",
+        "contextMenus"
+     ],
+    "background": {
+        "scripts":["background.js"],
+        "persistent": false
+     },
+    "manifest_version": 2
+}
