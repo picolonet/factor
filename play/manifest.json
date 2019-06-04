@@ -25,5 +25,14 @@
         "scripts":["background.js"],
         "persistent": false
     },
+    "content_scripts": [
+    {
+	    "matches": [
+		    "<all_urls>"
+	    ],
+	    "js":["jquery-3.4.1.slim.min.js",
+	    "content.js"]
+    }
+    ],
     "manifest_version": 2
 }
